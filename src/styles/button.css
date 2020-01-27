@@ -1,0 +1,37 @@
+.btn-container {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;;
+}
+
+.btn {
+    width: 25%;
+    border: 1px solid grey;
+    background: #ededed;
+    border: 1px solid #ccc;
+    padding: 10px 30px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 30px;
+    outline: none;
+
+}
+
+button:nth-child(1){
+    width:50%;
+    background-color: orange;
+}
+button:nth-child(2){
+    width:50%;
+    background-color: blue;
+}
+button:nth-child(15){
+    width:50%;
+}
+button:active {
+    background: #e5e5e5;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+    outline: none;
+}

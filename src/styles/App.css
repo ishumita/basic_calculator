@@ -1,0 +1,21 @@
+.calculator {
+    display: flex;
+    flex-direction: column;
+    height: 540px;
+    width: 468px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -234px;
+    margin-top: -270px;
+    box-shadow: 10px 10px 100px 0 rgba(0,0,0,0.5), -10px 10px 100px 0 rgba(0,0,0,0.5);
+}
+
+.heading {
+    color: white;
+    font-weight: bold;
+    font-family: "Rock Salt";
+    text-align: center;
+    transform: translate(25px) skew(5deg, -2deg);
+    filter: blur(0.5px);
+}
