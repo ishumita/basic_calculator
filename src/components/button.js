@@ -6,9 +6,10 @@ class Button extends Component {
         this.props.handleClick(this.props.name)
     }
     render() {
+        
         return (
           
-        <button className="btn" onClick={this.sendToParent}> {this.props.name} </button>
+        <button  id = {this.props.id} className="btn" onClick={this.sendToParent}> {this.props.name} </button>
    
      
         )
